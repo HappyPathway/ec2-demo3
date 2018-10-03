@@ -1,3 +1,5 @@
+variable "instance_name" {}
+
 //--------------------------------------------------------------------
 // Modules
 module "ec2_instance" {
