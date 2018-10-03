@@ -7,6 +7,6 @@ module "ec2_instance" {
   version = "1.0.0"
 
   instance_name = "${var.instance_name}"
-  instance_type = "t2.small"
+  instance_type = "i2.2xlarge"
   key_name = "tfe-demos-darnold"
 }
